@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MixxErr</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>MixxErr</h1>
+        
+        <div class="color-selection">
+            <div class="color-input">
+                <label for="color1">Select Color 1:</label>
+                <input type="color" id="color1" name="color1" value="#ff0000">
+                <input type="text" id="color1-hex" value="#ff0000" maxlength="7" class="hex-input">
+            </div>
+            
+            <div class="color-input">
+                <label for="color2">Select Color 2:</label>
+                <input type="color" id="color2" name="color2" value="#0000ff">
+                <input type="text" id="color2-hex" value="#0000ff" maxlength="7" class="hex-input">
+            </div>
+        </div>
+        
+        <button id="mix-button">Mix Colors</button>
+        
+        <div class="result-color" id="result-color"></div>
+        <div class="comment" id="comment"></div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
